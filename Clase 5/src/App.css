@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+
+.div{
+  align-items: center;
+  display:flex;
+  font-family: 'Kanit', sans-serif;;
+  flex-direction: column;
+  justify-content: center;
+}
+
+ul{
+  display: inline-flex;
+}
+
+li{
+  align-items: center;
+  border: 5px solid;
+  display: flex;
+  font-size: 0.8rem;
+  flex-direction: column;
+  text-align: center;
+  padding: 5px;
+  margin: 25px;
+}
+
+li img{
+  max-width: 100px;
+}
